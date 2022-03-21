@@ -14,7 +14,7 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter the EKS cluster name
 
-  GitSourceRepo: FSND-Deploy-Flask-App-to-Kubernetes-Using-EKS
+  GitSourceRepo: 
 
     Type: String
     Description: GitHub source repository - must contain a Dockerfile and buildspec.yml in the base
@@ -23,7 +23,7 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub repository name
 
-  GitBranch: master
+  GitBranch: 
 
     Type: String
     Default: master
@@ -40,10 +40,10 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub personal access token
 
-  GitHubUser: mdbailin
+  GitHubUser: 
 
     Type: String
-    Default: SudKul
+    Default: mdbailin
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
@@ -58,7 +58,7 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter a CodeBuild Docker image
 
-  KubectlRoleName: UdacityFlaskDeployCBKubectlRole
+  KubectlRoleName: 
   
     Type: String
     Default: UdacityFlaskDeployCBKubectlRole
