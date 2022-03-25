@@ -7,6 +7,7 @@ Description: EKSWSV1
 Parameters:
 
   EksClusterName: 
+
     Type: String
     Description: The name of the EKS cluster created
     Default: simple-jwt-api
@@ -33,6 +34,7 @@ Parameters:
     ConstraintDescription: You must enter a GitHub repository branch name
 
   GitHubToken: 
+  
     Type: String
     NoEcho: true
     Description: GitHub API token - see https://github.com/blog/1509-personal-api-tokens
